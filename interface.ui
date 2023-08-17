@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>946</width>
-    <height>506</height>
+    <width>1049</width>
+    <height>757</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -196,7 +196,7 @@
                 <string notr="true">background-color: #1f232a</string>
                </property>
                <property name="text">
-                <string>Home</string>
+                <string>Position ( X, Y )</string>
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
@@ -646,7 +646,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/more-horizontal.svg</normaloff>:/icons/icons/more-horizontal.svg</iconset>
+                 <normaloff>:/icons/icons/map-pin.svg</normaloff>:/icons/icons/map-pin.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -777,23 +777,15 @@
                <widget class="QWidget" name="page_6">
                 <layout class="QVBoxLayout" name="verticalLayout_16">
                  <item>
-                  <widget class="QLabel" name="label_10">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="font">
-                    <font>
-                     <pointsize>11</pointsize>
-                    </font>
-                   </property>
+                  <widget class="QLabel" name="label_14">
                    <property name="text">
-                    <string>Home</string>
+                    <string/>
                    </property>
-                   <property name="alignment">
-                    <set>Qt::AlignCenter</set>
+                   <property name="pixmap">
+                    <pixmap resource="resources.qrc">:/images/Captura de pantalla 2023-06-29 155528.png</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
                    </property>
                   </widget>
                  </item>
@@ -859,7 +851,7 @@
             <property name="minimumSize">
              <size>
               <width>200</width>
-              <height>0</height>
+              <height>400</height>
              </size>
             </property>
             <property name="maximumSize">
@@ -889,7 +881,7 @@
                <property name="minimumSize">
                 <size>
                  <width>200</width>
-                 <height>0</height>
+                 <height>200</height>
                 </size>
                </property>
                <layout class="QVBoxLayout" name="verticalLayout_12">
@@ -910,6 +902,12 @@
                 </property>
                 <item>
                  <widget class="QFrame" name="frame_8">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
                   <property name="frameShape">
                    <enum>QFrame::StyledPanel</enum>
                   </property>
@@ -944,8 +942,11 @@
                   </layout>
                  </widget>
                 </item>
-                <item>
+                <item alignment="Qt::AlignVCenter">
                  <widget class="QCustomStackedWidget" name="rightMenuPages">
+                  <property name="currentIndex">
+                   <number>0</number>
+                  </property>
                   <widget class="QWidget" name="page_4">
                    <layout class="QVBoxLayout" name="verticalLayout_13">
                     <item>
@@ -967,8 +968,8 @@
                   </widget>
                   <widget class="QWidget" name="page_5">
                    <layout class="QVBoxLayout" name="verticalLayout_14">
-                    <item alignment="Qt::AlignRight">
-                     <widget class="QLabel" name="label_9">
+                    <item>
+                     <widget class="QLabel" name="label_10">
                       <property name="minimumSize">
                        <size>
                         <width>200</width>
@@ -981,11 +982,97 @@
                        </font>
                       </property>
                       <property name="text">
-                       <string>More</string>
+                       <string>Position ( X, Y )</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
                       </property>
+                     </widget>
+                    </item>
+                    <item alignment="Qt::AlignHCenter">
+                     <widget class="QFrame" name="frame_9">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_10">
+                       <item>
+                        <widget class="QFrame" name="frame_10">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QVBoxLayout" name="verticalLayout_20">
+                          <item>
+                           <widget class="QLabel" name="label_13">
+                            <property name="text">
+                             <string>( X ) AXIS</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="label_9">
+                            <property name="text">
+                             <string>( Y ) AXIS</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QFrame" name="frame_12">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QVBoxLayout" name="verticalLayout_22">
+                          <item>
+                           <widget class="QLineEdit" name="data_x">
+                            <property name="styleSheet">
+                             <string notr="true">
+</string>
+                            </property>
+                            <property name="text">
+                             <string>0</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLineEdit" name="data_y">
+                            <property name="text">
+                             <string>0</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                      </layout>
                      </widget>
                     </item>
                    </layout>
@@ -1002,18 +1089,13 @@
         </widget>
        </item>
        <item>
-        <widget class="QCustomSlideMenu" name="popupNotificationContainer" native="true">
-         <layout class="QVBoxLayout" name="verticalLayout_19"/>
-        </widget>
-       </item>
-       <item>
         <widget class="QWidget" name="footeContainer" native="true">
          <layout class="QHBoxLayout" name="horizontalLayout_11">
           <property name="spacing">
            <number>7</number>
           </property>
           <property name="leftMargin">
-           <number>0</number>
+           <number>5</number>
           </property>
           <property name="topMargin">
            <number>0</number>
@@ -1037,7 +1119,7 @@
               <number>0</number>
              </property>
              <property name="leftMargin">
-              <number>0</number>
+              <number>5</number>
              </property>
              <property name="topMargin">
               <number>0</number>
@@ -1094,7 +1176,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>946</width>
+     <width>1049</width>
      <height>26</height>
     </rect>
    </property>

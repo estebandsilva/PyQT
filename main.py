@@ -9,7 +9,7 @@
 ##Generamos el python con PySide2
 #pyuic5 -x my_ui.ui -o my_ui.py
 #lo mismo con resources
-#pyrcc5 resources.qrc -o resoruces_rc.py
+#pyrcc5 resources.qrc -o resources_rc.py
 
 #otros
 # pip install QT-PyQt-PySide-Custom-Widgets
