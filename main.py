@@ -24,7 +24,8 @@ from Custom_Widgets.Widgets import *
 
 ########################################################################
 # IMPORT Custom widgets
-from Custom_Widgets.Widgets import *
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel
+#from Custom_Widgets.Widgets import *
 ########################################################################
 
 
