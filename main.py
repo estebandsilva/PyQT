@@ -7,7 +7,7 @@
 #pip install pyqt5
 
 ##Generamos el python con PySide2
-#pyuic5 -x my_ui.ui -o my_ui.py
+#pyuic5 -x interface.ui -o ui_interface.py
 #lo mismo con resources
 #pyrcc5 resources.qrc -o resources_rc.py
 
