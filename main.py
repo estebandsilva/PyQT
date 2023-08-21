@@ -20,7 +20,7 @@ import os
 import sys
 
 from ui_interface import *
-from Custom_Widgets.Widgets import *
+#from Custom_Widgets.Widgets import *
 
 ########################################################################
 # IMPORT Custom widgets
