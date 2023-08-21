@@ -360,7 +360,7 @@ class Ui_MainWindow(object):
         self.frame_13.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_13.setObjectName("frame_13")
         self.pushButton = QtWidgets.QPushButton(self.frame_13)
-        self.pushButton.setGeometry(QtCore.QRect(0, 70, 499, 50))
+        self.pushButton.setGeometry(QtCore.QRect(0, 300, 499, 50))
         self.pushButton.setStyleSheet("background-color: rgb(0, 170, 0);\n"
 "background-color: rgb(0, 85, 0);")
         self.pushButton.setObjectName("pushButton")
