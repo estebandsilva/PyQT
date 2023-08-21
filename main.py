@@ -24,8 +24,8 @@ from ui_interface import *
 
 ########################################################################
 # IMPORT Custom widgets
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel
-#from Custom_Widgets.Widgets import *
+#from PyQt5.QtWidgets import QApplication, QWidget, QLabel
+from Custom_Widgets.Widgets import *
 ########################################################################
 
 
