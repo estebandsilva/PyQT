@@ -73,6 +73,12 @@
     </property>
     <item>
      <widget class="QCustomSlideMenu" name="leftMenuContainer" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>0</height>
+       </size>
+      </property>
       <property name="maximumSize">
        <size>
         <width>60</width>
@@ -189,6 +195,12 @@
              </property>
              <item>
               <widget class="QPushButton" name="homeBtn">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
                <property name="toolTip">
                 <string>Home</string>
                </property>
@@ -304,8 +316,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>80</width>
+                 <height>80</height>
                 </size>
                </property>
               </widget>
