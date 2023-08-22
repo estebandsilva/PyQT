@@ -27,6 +27,8 @@ import os
 import sys
 
 from ui_interface import *
+from rectangle import *
+
 #from Custom_Widgets.Widgets import *
 
 ########################################################################

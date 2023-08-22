@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1049</width>
-    <height>757</height>
+    <width>1499</width>
+    <height>858</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -73,15 +73,9 @@
     </property>
     <item>
      <widget class="QCustomSlideMenu" name="leftMenuContainer" native="true">
-      <property name="minimumSize">
-       <size>
-        <width>50</width>
-        <height>0</height>
-       </size>
-      </property>
       <property name="maximumSize">
        <size>
-        <width>60</width>
+        <width>100</width>
         <height>16777215</height>
        </size>
       </property>
@@ -124,6 +118,12 @@
           </property>
           <item>
            <widget class="QFrame" name="frame">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>60</height>
+             </size>
+            </property>
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
             </property>
@@ -155,8 +155,14 @@
                 <string/>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/align-justify.svg</normaloff>:/icons/icons/align-justify.svg</iconset>
+                <iconset>
+                 <normaloff>:/images/icons_2/align-justify.svg</normaloff>:/images/icons_2/align-justify.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>70</width>
+                 <height>70</height>
+                </size>
                </property>
               </widget>
              </item>
@@ -195,12 +201,6 @@
              </property>
              <item>
               <widget class="QPushButton" name="homeBtn">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
                <property name="toolTip">
                 <string>Home</string>
                </property>
@@ -211,13 +211,13 @@
                 <string>Position ( X, Y )</string>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/home.svg</normaloff>:/icons/icons/home.svg</iconset>
+                <iconset>
+                 <normaloff>:/images/icons_2/home.svg</normaloff>:/images/icons_2/home.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
-                 <width>40</width>
-                 <height>40</height>
+                 <width>70</width>
+                 <height>70</height>
                 </size>
                </property>
               </widget>
@@ -231,13 +231,13 @@
                 <string>Data Analysis</string>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/list.svg</normaloff>:/icons/icons/list.svg</iconset>
+                <iconset>
+                 <normaloff>:/images/icons_2/database.svg</normaloff>:/images/icons_2/database.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>70</width>
+                 <height>70</height>
                 </size>
                </property>
               </widget>
@@ -251,13 +251,13 @@
                 <string>Reports</string>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/printer.svg</normaloff>:/icons/icons/printer.svg</iconset>
+                <iconset>
+                 <normaloff>:/images/icons_2/printer.svg</normaloff>:/images/icons_2/printer.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>70</width>
+                 <height>70</height>
                 </size>
                </property>
               </widget>
@@ -311,13 +311,13 @@
                 <string>Settings</string>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/settings.svg</normaloff>:/icons/icons/settings.svg</iconset>
+                <iconset>
+                 <normaloff>:/images/icons_2/settings.svg</normaloff>:/images/icons_2/settings.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
-                 <width>80</width>
-                 <height>80</height>
+                 <width>70</width>
+                 <height>70</height>
                 </size>
                </property>
               </widget>
@@ -331,13 +331,13 @@
                 <string>Information</string>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/info.svg</normaloff>:/icons/icons/info.svg</iconset>
+                <iconset>
+                 <normaloff>:/images/icons_2/info.svg</normaloff>:/images/icons_2/info.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>70</width>
+                 <height>70</height>
                 </size>
                </property>
               </widget>
@@ -351,13 +351,13 @@
                 <string>Help</string>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/help-circle.svg</normaloff>:/icons/icons/help-circle.svg</iconset>
+                <iconset>
+                 <normaloff>:/images/icons_2/help-circle.svg</normaloff>:/images/icons_2/help-circle.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>70</width>
+                 <height>70</height>
                 </size>
                </property>
               </widget>
@@ -447,13 +447,13 @@
                 <string/>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/x-circle.svg</normaloff>:/icons/icons/x-circle.svg</iconset>
+                <iconset>
+                 <normaloff>:/images/icons_2/x-circle.svg</normaloff>:/images/icons_2/x-circle.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>40</width>
+                 <height>40</height>
                 </size>
                </property>
               </widget>
@@ -657,13 +657,13 @@
                 <string/>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/map-pin.svg</normaloff>:/icons/icons/map-pin.svg</iconset>
+                <iconset>
+                 <normaloff>:/images/icons_2/move.svg</normaloff>:/images/icons_2/move.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>40</width>
+                 <height>40</height>
                 </size>
                </property>
               </widget>
@@ -677,13 +677,13 @@
                 <string/>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/user.svg</normaloff>:/icons/icons/user.svg</iconset>
+                <iconset>
+                 <normaloff>:/images/icons_2/map-pin.svg</normaloff>:/images/icons_2/map-pin.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>40</width>
+                 <height>40</height>
                 </size>
                </property>
               </widget>
@@ -724,8 +724,14 @@
                 <string/>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/minus.svg</normaloff>:/icons/icons/minus.svg</iconset>
+                <iconset>
+                 <normaloff>:/images/icons_2/minus.svg</normaloff>:/images/icons_2/minus.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
                </property>
               </widget>
              </item>
@@ -738,8 +744,14 @@
                 <string/>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/square.svg</normaloff>:/icons/icons/square.svg</iconset>
+                <iconset>
+                 <normaloff>:/images/icons_2/square.svg</normaloff>:/images/icons_2/square.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
                </property>
               </widget>
              </item>
@@ -752,8 +764,14 @@
                 <string/>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/x.svg</normaloff>:/icons/icons/x.svg</iconset>
+                <iconset>
+                 <normaloff>:/images/icons_2/x.svg</normaloff>:/images/icons_2/x.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
                </property>
               </widget>
              </item>
@@ -784,83 +802,21 @@
              <item>
               <widget class="QCustomStackedWidget" name="mainPages">
                <property name="currentIndex">
-                <number>0</number>
+                <number>2</number>
                </property>
                <widget class="QWidget" name="page_6">
                 <layout class="QVBoxLayout" name="verticalLayout_16">
                  <item>
-                  <widget class="QFrame" name="frame_13">
-                   <property name="frameShape">
-                    <enum>QFrame::StyledPanel</enum>
+                  <widget class="QLabel" name="label_14">
+                   <property name="text">
+                    <string/>
                    </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
+                   <property name="pixmap">
+                    <pixmap resource="resources.qrc">:/images/Captura de pantalla 2023-06-29 155528.png</pixmap>
                    </property>
-                   <widget class="QPushButton" name="pushButton">
-                    <property name="geometry">
-                     <rect>
-                      <x>0</x>
-                      <y>300</y>
-                      <width>499</width>
-                      <height>50</height>
-                     </rect>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">background-color: rgb(0, 170, 0);
-background-color: rgb(0, 85, 0);</string>
-                    </property>
-                    <property name="text">
-                     <string>Start Button</string>
-                    </property>
-                   </widget>
-                   <widget class="QPushButton" name="pushButton_2">
-                    <property name="geometry">
-                     <rect>
-                      <x>0</x>
-                      <y>220</y>
-                      <width>499</width>
-                      <height>60</height>
-                     </rect>
-                    </property>
-                    <property name="minimumSize">
-                     <size>
-                      <width>60</width>
-                      <height>60</height>
-                     </size>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">background-color: rgb(255, 0, 0);</string>
-                    </property>
-                    <property name="text">
-                     <string>Stop Button</string>
-                    </property>
-                   </widget>
-                   <widget class="QPushButton" name="pushButton_3">
-                    <property name="geometry">
-                     <rect>
-                      <x>10</x>
-                      <y>130</y>
-                      <width>499</width>
-                      <height>13</height>
-                     </rect>
-                    </property>
-                    <property name="text">
-                     <string>Manual/Automatic</string>
-                    </property>
-                   </widget>
-                   <widget class="QPushButton" name="pushButton_4">
-                    <property name="geometry">
-                     <rect>
-                      <x>10</x>
-                      <y>170</y>
-                      <width>499</width>
-                      <height>13</height>
-                     </rect>
-                    </property>
-                    <property name="text">
-                     <string>PushButton</string>
-                    </property>
-                   </widget>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
                   </widget>
                  </item>
                 </layout>
@@ -890,10 +846,10 @@ background-color: rgb(0, 85, 0);</string>
                  </item>
                 </layout>
                </widget>
-               <widget class="QWidget" name="page_8">
+               <widget class="QWidget" name="MovingRectangle">
                 <layout class="QVBoxLayout" name="verticalLayout_18">
                  <item>
-                  <widget class="QLabel" name="label_12">
+                  <widget class="QLabel" name="rect_label">
                    <property name="minimumSize">
                     <size>
                      <width>200</width>
@@ -924,14 +880,14 @@ background-color: rgb(0, 85, 0);</string>
            <widget class="QCustomSlideMenu" name="rightMenuContainer" native="true">
             <property name="minimumSize">
              <size>
-              <width>200</width>
+              <width>400</width>
               <height>400</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
               <width>232</width>
-              <height>176</height>
+              <height>1</height>
              </size>
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_11">
@@ -1008,8 +964,14 @@ background-color: rgb(0, 85, 0);</string>
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset resource="resources.qrc">
-                       <normaloff>:/icons/icons/x-circle.svg</normaloff>:/icons/icons/x-circle.svg</iconset>
+                      <iconset>
+                       <normaloff>:/images/icons_2/x-circle.svg</normaloff>:/images/icons_2/x-circle.svg</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>40</width>
+                       <height>40</height>
+                      </size>
                      </property>
                     </widget>
                    </item>
@@ -1249,8 +1211,8 @@ background-color: rgb(0, 85, 0);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1049</width>
-     <height>26</height>
+     <width>1499</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>
@@ -1271,7 +1233,6 @@ background-color: rgb(0, 85, 0);</string>
  </customwidgets>
  <resources>
   <include location="resources.qrc"/>
-  <include location="../../../.designer/backup/resources.qrc"/>
  </resources>
  <connections/>
 </ui>
