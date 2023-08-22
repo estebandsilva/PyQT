@@ -1,5 +1,5 @@
 <RCC>
-  <qresource prefix="icons">
+  <qresource prefix="images">
     <file>icons/activity.svg</file>
     <file>icons/airplay.svg</file>
     <file>icons/alert-circle.svg</file>
@@ -287,8 +287,6 @@
     <file>icons/zap-off.svg</file>
     <file>icons/zoom-in.svg</file>
     <file>icons/zoom-out.svg</file>
-  </qresource>
-  <qresource prefix="images">
     <file>Captura de pantalla 2023-06-29 155528.png</file>
     <file>Captura de pantalla 2023-07-23 212352.png</file>
   </qresource>
