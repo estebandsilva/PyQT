@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1083</width>
-    <height>785</height>
+    <width>1281</width>
+    <height>820</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -160,8 +160,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>39</width>
-                 <height>39</height>
+                 <width>70</width>
+                 <height>70</height>
                 </size>
                </property>
               </widget>
@@ -236,8 +236,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>70</width>
+                 <height>70</height>
                 </size>
                </property>
               </widget>
@@ -256,8 +256,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>70</width>
+                 <height>70</height>
                 </size>
                </property>
               </widget>
@@ -316,8 +316,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>70</width>
+                 <height>70</height>
                 </size>
                </property>
               </widget>
@@ -336,8 +336,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>70</width>
+                 <height>70</height>
                 </size>
                </property>
               </widget>
@@ -356,8 +356,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>70</width>
+                 <height>70</height>
                 </size>
                </property>
               </widget>
@@ -452,8 +452,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>30</width>
+                 <height>30</height>
                 </size>
                </property>
               </widget>
@@ -662,8 +662,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>40</width>
+                 <height>40</height>
                 </size>
                </property>
               </widget>
@@ -682,8 +682,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>40</width>
+                 <height>40</height>
                 </size>
                </property>
               </widget>
@@ -727,6 +727,12 @@
                 <iconset resource="resources.qrc">
                  <normaloff>:/images/icons_2/minus.svg</normaloff>:/images/icons_2/minus.svg</iconset>
                </property>
+               <property name="iconSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
               </widget>
              </item>
              <item>
@@ -741,6 +747,12 @@
                 <iconset resource="resources.qrc">
                  <normaloff>:/images/icons_2/square.svg</normaloff>:/images/icons_2/square.svg</iconset>
                </property>
+               <property name="iconSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
               </widget>
              </item>
              <item>
@@ -754,6 +766,12 @@
                <property name="icon">
                 <iconset resource="resources.qrc">
                  <normaloff>:/images/icons_2/x.svg</normaloff>:/images/icons_2/x.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
                </property>
               </widget>
              </item>
@@ -948,6 +966,12 @@
                      <property name="icon">
                       <iconset resource="resources.qrc">
                        <normaloff>:/images/icons_2/x-circle.svg</normaloff>:/images/icons_2/x-circle.svg</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>30</width>
+                       <height>30</height>
+                      </size>
                      </property>
                     </widget>
                    </item>
@@ -1187,7 +1211,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1083</width>
+     <width>1281</width>
      <height>21</height>
     </rect>
    </property>

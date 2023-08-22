@@ -31,18 +31,18 @@
 			"height": "parent"
 		}],
 		"collapsedSize": [{
-			"width": 45,
+			"width": 100,
 			"height": "parent"
 		}],
 		"expandedSize": [{
-			"width": 200,
+			"width": 220	,
 			"height": "parent"
 		}],
 		"toggleButton": [{
 			"buttonName": "menuBtn",
 			"icons": [{
-				"whenMenuIsCollapsed": ":/icons/icons/align-justify.svg",
-				"whenMenuIsExpanded": ":/icons/icons/chevron-left.svg"
+				"whenMenuIsCollapsed": ":/images/icons_2/align-justify.svg",
+				"whenMenuIsExpanded": ":/images/icons_2/chevron-left.svg"
 			}]
 		}],
 		"menuTransitionAnimation": [{
