@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1049</width>
-    <height>757</height>
+    <width>1083</width>
+    <height>785</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -75,7 +75,7 @@
      <widget class="QCustomSlideMenu" name="leftMenuContainer" native="true">
       <property name="maximumSize">
        <size>
-        <width>45</width>
+        <width>100</width>
         <height>16777215</height>
        </size>
       </property>
@@ -118,6 +118,12 @@
           </property>
           <item>
            <widget class="QFrame" name="frame">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>60</height>
+             </size>
+            </property>
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
             </property>
@@ -150,7 +156,13 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/align-justify.svg</normaloff>:/icons/icons/align-justify.svg</iconset>
+                 <normaloff>:/images/icons_2/align-justify.svg</normaloff>:/images/icons_2/align-justify.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>39</width>
+                 <height>39</height>
+                </size>
                </property>
               </widget>
              </item>
@@ -200,12 +212,12 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/home.svg</normaloff>:/icons/icons/home.svg</iconset>
+                 <normaloff>:/images/icons_2/home.svg</normaloff>:/images/icons_2/home.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
-                 <width>24</width>
-                 <height>24</height>
+                 <width>70</width>
+                 <height>70</height>
                 </size>
                </property>
               </widget>
@@ -220,7 +232,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/list.svg</normaloff>:/icons/icons/list.svg</iconset>
+                 <normaloff>:/images/icons_2/database.svg</normaloff>:/images/icons_2/database.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -240,7 +252,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/printer.svg</normaloff>:/icons/icons/printer.svg</iconset>
+                 <normaloff>:/images/icons_2/printer.svg</normaloff>:/images/icons_2/printer.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -300,7 +312,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/settings.svg</normaloff>:/icons/icons/settings.svg</iconset>
+                 <normaloff>:/images/icons_2/settings.svg</normaloff>:/images/icons_2/settings.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -320,7 +332,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/info.svg</normaloff>:/icons/icons/info.svg</iconset>
+                 <normaloff>:/images/icons_2/info.svg</normaloff>:/images/icons_2/info.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -340,7 +352,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/help-circle.svg</normaloff>:/icons/icons/help-circle.svg</iconset>
+                 <normaloff>:/images/icons_2/help-circle.svg</normaloff>:/images/icons_2/help-circle.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -436,7 +448,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/x-circle.svg</normaloff>:/icons/icons/x-circle.svg</iconset>
+                 <normaloff>:/images/icons_2/x-circle.svg</normaloff>:/images/icons_2/x-circle.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -646,7 +658,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/map-pin.svg</normaloff>:/icons/icons/map-pin.svg</iconset>
+                 <normaloff>:/images/icons_2/move.svg</normaloff>:/images/icons_2/move.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -666,7 +678,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/user.svg</normaloff>:/icons/icons/user.svg</iconset>
+                 <normaloff>:/images/icons_2/map-pin.svg</normaloff>:/images/icons_2/map-pin.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -713,7 +725,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/minus.svg</normaloff>:/icons/icons/minus.svg</iconset>
+                 <normaloff>:/images/icons_2/minus.svg</normaloff>:/images/icons_2/minus.svg</iconset>
                </property>
               </widget>
              </item>
@@ -727,7 +739,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/square.svg</normaloff>:/icons/icons/square.svg</iconset>
+                 <normaloff>:/images/icons_2/square.svg</normaloff>:/images/icons_2/square.svg</iconset>
                </property>
               </widget>
              </item>
@@ -741,7 +753,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/icons/icons/x.svg</normaloff>:/icons/icons/x.svg</iconset>
+                 <normaloff>:/images/icons_2/x.svg</normaloff>:/images/icons_2/x.svg</iconset>
                </property>
               </widget>
              </item>
@@ -935,7 +947,7 @@
                      </property>
                      <property name="icon">
                       <iconset resource="resources.qrc">
-                       <normaloff>:/icons/icons/x-circle.svg</normaloff>:/icons/icons/x-circle.svg</iconset>
+                       <normaloff>:/images/icons_2/x-circle.svg</normaloff>:/images/icons_2/x-circle.svg</iconset>
                      </property>
                     </widget>
                    </item>
@@ -1054,8 +1066,7 @@
                           <item>
                            <widget class="QLineEdit" name="data_x">
                             <property name="styleSheet">
-                             <string notr="true">
-</string>
+                             <string notr="true"/>
                             </property>
                             <property name="text">
                              <string>0</string>
@@ -1176,8 +1187,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1049</width>
-     <height>26</height>
+     <width>1083</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>

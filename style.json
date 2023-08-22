@@ -27,7 +27,7 @@
 		{
 		"name": "leftMenuContainer",
 		"defaultSize": [{
-			"width": 45,
+			"width": 100,
 			"height": "parent"
 		}],
 		"collapsedSize": [{
@@ -35,7 +35,7 @@
 			"height": "parent"
 		}],
 		"expandedSize": [{
-			"width": 150,
+			"width": 200,
 			"height": "parent"
 		}],
 		"toggleButton": [{
