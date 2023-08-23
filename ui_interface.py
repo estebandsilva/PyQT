@@ -386,14 +386,14 @@ class Ui_MainWindow(object):
         self.verticalLayout_18 = QtWidgets.QVBoxLayout(self.page_8)
         self.verticalLayout_18.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_18.setObjectName("verticalLayout_18")
-        self.label_12 = QtWidgets.QLabel(self.page_8)
-        self.label_12.setMinimumSize(QtCore.QSize(200, 0))
+        self.rect_label = QtWidgets.QLabel(self.page_8)
+        self.rect_label.setMinimumSize(QtCore.QSize(200, 0))
         font = QtGui.QFont()
         font.setPointSize(11)
-        self.label_12.setFont(font)
-        self.label_12.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_12.setObjectName("label_12")
-        self.verticalLayout_18.addWidget(self.label_12)
+        self.rect_label.setFont(font)
+        self.rect_label.setAlignment(QtCore.Qt.AlignCenter)
+        self.rect_label.setObjectName("rect_label")
+        self.verticalLayout_18.addWidget(self.rect_label)
         self.mainPages.addWidget(self.page_8)
         self.verticalLayout_15.addWidget(self.mainPages)
         self.horizontalLayout_8.addWidget(self.mainContentsContainer)
@@ -541,15 +541,23 @@ class Ui_MainWindow(object):
         self.horizontalLayout_11.addWidget(self.sizeGrip)
         self.verticalLayout_10.addWidget(self.footeContainer)
         self.horizontalLayout.addWidget(self.mainBodyContainer)
+
+        # RECTANGLE
+        self.rect_step_x = 2
+        self.rect_step_y = 2
+        self.rect_label.setStyleSheet('background-color: red;')
+
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1281, 21))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
 
+
+
         self.retranslateUi(MainWindow)
         self.centerMenuPages.setCurrentIndex(2)
-        self.mainPages.setCurrentIndex(0)
+        self.mainPages.setCurrentIndex(2)
         self.rightMenuPages.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
@@ -581,7 +589,7 @@ class Ui_MainWindow(object):
         self.restoreBtn.setToolTip(_translate("MainWindow", "Restore Window"))
         self.closeBtn.setToolTip(_translate("MainWindow", "Close Window"))
         self.label_11.setText(_translate("MainWindow", "Data Analysis"))
-        self.label_12.setText(_translate("MainWindow", "Reports"))
+        self.rect_label.setText(_translate("MainWindow", "Reports"))
         self.label_7.setText(_translate("MainWindow", "Right Menu"))
         self.closeRightMenuBtn.setToolTip(_translate("MainWindow", "Close Menu"))
         self.label_8.setText(_translate("MainWindow", "Profile"))
