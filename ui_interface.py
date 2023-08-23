@@ -381,12 +381,12 @@ class Ui_MainWindow(object):
         self.label_11.setObjectName("label_11")
         self.verticalLayout_17.addWidget(self.label_11)
         self.mainPages.addWidget(self.page_7)
-        self.MovingRectangle = QtWidgets.QWidget()
-        self.MovingRectangle.setObjectName("MovingRectangle")
-        self.verticalLayout_18 = QtWidgets.QVBoxLayout(self.MovingRectangle)
+        self.page_8 = QtWidgets.QWidget()
+        self.page_8.setObjectName("page_8")
+        self.verticalLayout_18 = QtWidgets.QVBoxLayout(self.page_8)
         self.verticalLayout_18.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_18.setObjectName("verticalLayout_18")
-        self.rect_label = QtWidgets.QLabel(self.MovingRectangle)
+        self.rect_label = QtWidgets.QLabel(self.page_8)
         self.rect_label.setMinimumSize(QtCore.QSize(200, 0))
         font = QtGui.QFont()
         font.setPointSize(11)
@@ -394,7 +394,7 @@ class Ui_MainWindow(object):
         self.rect_label.setAlignment(QtCore.Qt.AlignCenter)
         self.rect_label.setObjectName("rect_label")
         self.verticalLayout_18.addWidget(self.rect_label)
-        self.mainPages.addWidget(self.MovingRectangle)
+        self.mainPages.addWidget(self.page_8)
         self.verticalLayout_15.addWidget(self.mainPages)
         self.horizontalLayout_8.addWidget(self.mainContentsContainer)
         self.rightMenuContainer = QCustomSlideMenu(self.mainbodyContent)
@@ -541,6 +541,13 @@ class Ui_MainWindow(object):
         self.horizontalLayout_11.addWidget(self.sizeGrip)
         self.verticalLayout_10.addWidget(self.footeContainer)
         self.horizontalLayout.addWidget(self.mainBodyContainer)
+
+        # RECTANGLE
+        self.rect_step_x = 2
+        self.rect_step_y = 2
+        self.rect_label.setStyleSheet('background-color: red;')
+
+
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1499, 21))
@@ -591,6 +598,12 @@ class Ui_MainWindow(object):
         self.data_x.setText(_translate("MainWindow", "0"))
         self.data_y.setText(_translate("MainWindow", "0"))
         self.label_15.setText(_translate("MainWindow", "Copyright Mequonic"))
+
+
+
+        #self.rect_label.move(new_x, new_y)
+
+
 from Custom_Widgets.Widgets import QCustomSlideMenu, QCustomStackedWidget
 import resources_rc
 

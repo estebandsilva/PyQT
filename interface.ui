@@ -846,7 +846,7 @@
                  </item>
                 </layout>
                </widget>
-               <widget class="QWidget" name="MovingRectangle">
+               <widget class="QWidget" name="page_8">
                 <layout class="QVBoxLayout" name="verticalLayout_18">
                  <item>
                   <widget class="QLabel" name="rect_label">
