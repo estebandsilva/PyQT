@@ -290,4 +290,9 @@
     <file>Captura de pantalla 2023-06-29 155528.png</file>
     <file>Captura de pantalla 2023-07-23 212352.png</file>
   </qresource>
+  <qresource prefix="Fotos">
+    <file>images/sensores.png</file>
+    <file>images/marco.png</file>
+    <file>images/Assa_Abloy_logo.png</file>
+  </qresource>
 </RCC>

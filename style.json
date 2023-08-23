@@ -2,7 +2,7 @@
 	"QMainWindow":[
 		{
 			"tittle":"Test flow ",
-			"icon":":/images/Captura de pantalla 2023-07-23 212352.png",
+			"icon":"::/Fotos/images/Assa_Abloy_logo.png",
 			"frameless": true,
 			"transluscentBg": true,
 			"sizeGrip": "sizeGrip",
@@ -13,8 +13,8 @@
 					"restore":[
 						{	
 							"buttonName": "restoreBtn",
-							"normalIcon": ":/icons/icons/square.svg",
-							"maximizedIcon": ":/icons/icons/copy.svg"
+							"normalIcon": ":/images/icons_2/square.svg",
+							"maximizedIcon": ":/images/icons_2/copy.svg"
 						}
 					],
 					"moveWindow": "headerContainer",
@@ -97,9 +97,9 @@
 				{
 					"navigationButtons":[
 						{
-							"homeBtn": "page_6",
+							"homeBtn": "page_8",
 							"dataBtn": "page_7",
-							"reportBtn": "page_8"
+							"reportBtn": "page_9"
 						}
 					]
 				}

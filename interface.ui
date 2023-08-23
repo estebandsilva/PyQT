@@ -467,7 +467,7 @@
              <string notr="true"/>
             </property>
             <property name="currentIndex">
-             <number>2</number>
+             <number>0</number>
             </property>
             <widget class="QWidget" name="page">
              <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -600,7 +600,7 @@
                 <string/>
                </property>
                <property name="pixmap">
-                <pixmap resource="resources.qrc">:/images/Captura de pantalla 2023-07-23 212352.png</pixmap>
+                <pixmap resource="resources.qrc">:/Fotos/images/Assa_Abloy_logo.png</pixmap>
                </property>
                <property name="scaledContents">
                 <bool>true</bool>
@@ -802,24 +802,78 @@
              <item>
               <widget class="QCustomStackedWidget" name="mainPages">
                <property name="currentIndex">
-                <number>2</number>
+                <number>0</number>
                </property>
-               <widget class="QWidget" name="page_6">
-                <layout class="QVBoxLayout" name="verticalLayout_16">
-                 <item>
-                  <widget class="QLabel" name="label_14">
-                   <property name="text">
-                    <string/>
-                   </property>
-                   <property name="pixmap">
-                    <pixmap resource="resources.qrc">:/images/Captura de pantalla 2023-06-29 155528.png</pixmap>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
+               <widget class="QWidget" name="page_8">
+                <widget class="QLabel" name="label_12">
+                 <property name="geometry">
+                  <rect>
+                   <x>9</x>
+                   <y>9</y>
+                   <width>731</width>
+                   <height>678</height>
+                  </rect>
+                 </property>
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="autoFillBackground">
+                  <bool>false</bool>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="resources.qrc">:/Fotos/images/marco.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="rect_label">
+                 <property name="geometry">
+                  <rect>
+                   <x>90</x>
+                   <y>390</y>
+                   <width>100</width>
+                   <height>50</height>
+                  </rect>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>100</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+background-image: url(:/Fotos/images/sensores.png);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="resources.qrc">:/Fotos/images/sensores.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
                </widget>
                <widget class="QWidget" name="page_7">
                 <layout class="QVBoxLayout" name="verticalLayout_17">
@@ -846,14 +900,20 @@
                  </item>
                 </layout>
                </widget>
-               <widget class="QWidget" name="page_8">
+               <widget class="QWidget" name="page_9">
                 <layout class="QVBoxLayout" name="verticalLayout_18">
                  <item>
-                  <widget class="QLabel" name="rect_label">
+                  <widget class="QLabel" name="label_14">
                    <property name="minimumSize">
                     <size>
                      <width>200</width>
                      <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>100</width>
+                     <height>20</height>
                     </size>
                    </property>
                    <property name="font">
@@ -981,7 +1041,7 @@
                 <item alignment="Qt::AlignVCenter">
                  <widget class="QCustomStackedWidget" name="rightMenuPages">
                   <property name="currentIndex">
-                   <number>0</number>
+                   <number>1</number>
                   </property>
                   <widget class="QWidget" name="page_4">
                    <layout class="QVBoxLayout" name="verticalLayout_13">
@@ -1088,19 +1148,16 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_22">
                           <item>
-                           <widget class="QLineEdit" name="data_x">
-                            <property name="styleSheet">
-                             <string notr="true"/>
-                            </property>
+                           <widget class="QLabel" name="label_17">
                             <property name="text">
-                             <string>0</string>
+                             <string>TextLabel</string>
                             </property>
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLineEdit" name="data_y">
+                           <widget class="QLabel" name="label_16">
                             <property name="text">
-                             <string>0</string>
+                             <string>TextLabel</string>
                             </property>
                            </widget>
                           </item>
