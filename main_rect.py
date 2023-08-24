@@ -1,4 +1,4 @@
-
+####REQUIREMENTS
 #pip install PySide2
 #pip install PySide6
 #pip install Pycairo
@@ -22,20 +22,20 @@
 # sudo ./pruebaqt.sh
 
 
-
+###IMPORTS
 import os
 import sys
 
 from ui_interface import *
-#from rectangle import *
+    #from PyQt5.QtWidgets import QApplication, QWidget, QLabel
+    #IMPORTED ON ui_interface
 
-#from Custom_Widgets.Widgets import *
 
 ########################################################################
 # IMPORT Custom widgets
-#from PyQt5.QtWidgets import QApplication, QWidget, QLabel
 from Custom_Widgets.Widgets import *
 ########################################################################
+
 
 
 ########################################################################
@@ -80,6 +80,8 @@ class MainWindow(QMainWindow):
         self.ui.closeRightMenuBtn.clicked.connect(lambda: self.ui.rightMenuContainer.collapseMenu())
 
 
+        #Cambiar el valor de las posiciones por pantalla
+
         self.step_x = 2
         self.step_y = 2
 
@@ -100,9 +102,6 @@ class MainWindow(QMainWindow):
 
         self.ui.label_16.setText( str(new_y))
         self.ui.label_17.setText( str(new_x))
-
-
-        #Cambiar el valor de las posiciones por pantalla
 
 ########################################################################
 ## EXECUTE  APP

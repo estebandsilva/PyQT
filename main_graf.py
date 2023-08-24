@@ -1,4 +1,4 @@
-
+####REQUIREMENTS
 #pip install PySide2
 #pip install PySide6
 #pip install Pycairo
@@ -22,21 +22,17 @@
 # sudo ./pruebaqt.sh
 
 
-
+###IMPORTS
 import os
 import sys
 
 from ui_interface import *
-#from rectangle import *
+# from PyQt5.QtWidgets import QApplication, QWidget, QLabel
+# IMPORTED ON ui_interface
 
-#from Custom_Widgets.Widgets import *
-
-########################################################################
-# IMPORT Custom widgets
-#from PyQt5.QtWidgets import QApplication, QWidget, QLabel
 from Custom_Widgets.Widgets import *
-########################################################################
 
+#GRAPHICS
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
@@ -51,13 +47,13 @@ class MainWindow(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
+        #Rectangle
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.move_rectangle)
         self.timer.start(50)
 
-        #setupgraf
+        #Graphics
         self.setup_heatmap()
-
 
 
          # APPLY JSON STYLESHEET
@@ -87,6 +83,9 @@ class MainWindow(QMainWindow):
         self.ui.closeRightMenuBtn.clicked.connect(lambda: self.ui.rightMenuContainer.collapseMenu())
 
 
+### RECTANGLE
+        #RECTANBLE INCREMENT
+        # Cambiar el valor de las posiciones por pantalla
         self.step_x = 2
         self.step_y = 2
 
@@ -104,11 +103,10 @@ class MainWindow(QMainWindow):
             self.step_y = -self.step_y
 
         self.ui.rect_label.move(new_x, new_y)
-
         self.ui.label_16.setText( str(new_y))
         self.ui.label_17.setText( str(new_x))
 
-    ##Graf
+#####GRAPHICS
     def setup_heatmap(self):
         self.figure = plt.figure()
         self.canvas = FigureCanvas(self.figure)
@@ -117,7 +115,6 @@ class MainWindow(QMainWindow):
         layout.addWidget(self.canvas)
 
         self.plot_heatmap()
-
     def plot_heatmap(self):
         # Generate sample data (replace with your data)
         data = np.random.rand(10, 10)
@@ -128,7 +125,7 @@ class MainWindow(QMainWindow):
 
         self.canvas.draw()
 
-        #Cambiar el valor de las posiciones por pantalla
+
 
 ########################################################################
 ## EXECUTE  APP
