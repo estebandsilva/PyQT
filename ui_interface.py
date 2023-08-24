@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1281, 820)
+        MainWindow.resize(1088, 616)
         MainWindow.setStyleSheet(" *{\n"
 "    border:none;\n"
 "    background-color:transparent;\n"
@@ -61,6 +61,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout.setSpacing(0)
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.leftMenuContainer = QCustomSlideMenu(self.centralwidget)
+        self.leftMenuContainer.setMinimumSize(QtCore.QSize(200, 0))
         self.leftMenuContainer.setMaximumSize(QtCore.QSize(100, 16777215))
         self.leftMenuContainer.setStyleSheet("")
         self.leftMenuContainer.setObjectName("leftMenuContainer")
@@ -106,6 +107,9 @@ class Ui_MainWindow(object):
         self.verticalLayout_3.setSpacing(0)
         self.verticalLayout_3.setObjectName("verticalLayout_3")
         self.homeBtn = QtWidgets.QPushButton(self.frame_2)
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        self.homeBtn.setFont(font)
         self.homeBtn.setStyleSheet("background-color: #1f232a")
         icon1 = QtGui.QIcon()
         icon1.addPixmap(QtGui.QPixmap(":/images/icons_2/home.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -386,6 +390,9 @@ class Ui_MainWindow(object):
         self.verticalLayout_17 = QtWidgets.QVBoxLayout(self.page_7)
         self.verticalLayout_17.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_17.setObjectName("verticalLayout_17")
+        self.heatmapView = QtWidgets.QGraphicsView(self.page_7)
+        self.heatmapView.setObjectName("heatmapView")
+        self.verticalLayout_17.addWidget(self.heatmapView)
         self.label_11 = QtWidgets.QLabel(self.page_7)
         self.label_11.setMinimumSize(QtCore.QSize(200, 0))
         font = QtGui.QFont()
@@ -557,13 +564,13 @@ class Ui_MainWindow(object):
         self.horizontalLayout.addWidget(self.mainBodyContainer)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1281, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1088, 26))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
 
         self.retranslateUi(MainWindow)
         self.centerMenuPages.setCurrentIndex(0)
-        self.mainPages.setCurrentIndex(0)
+        self.mainPages.setCurrentIndex(1)
         self.rightMenuPages.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
