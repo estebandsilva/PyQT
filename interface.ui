@@ -235,6 +235,11 @@
              </item>
              <item>
               <widget class="QPushButton" name="dataBtn">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
                <property name="toolTip">
                 <string>Data Analysis</string>
                </property>
@@ -255,6 +260,11 @@
              </item>
              <item>
               <widget class="QPushButton" name="reportBtn">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
                <property name="toolTip">
                 <string>Reports</string>
                </property>
@@ -315,6 +325,11 @@
              </property>
              <item>
               <widget class="QPushButton" name="settingsBtn">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
                <property name="toolTip">
                 <string>Go to settings</string>
                </property>
@@ -335,6 +350,11 @@
              </item>
              <item>
               <widget class="QPushButton" name="infoBtn">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
                <property name="toolTip">
                 <string>Information about the app</string>
                </property>
@@ -355,6 +375,11 @@
              </item>
              <item>
               <widget class="QPushButton" name="helpBtn">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
                <property name="toolTip">
                 <string>Get more help</string>
                </property>
@@ -441,6 +466,11 @@
             <layout class="QHBoxLayout" name="horizontalLayout_3">
              <item>
               <widget class="QLabel" name="label">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
                <property name="text">
                 <string>More Menu</string>
                </property>
@@ -712,19 +742,19 @@
             </property>
             <layout class="QHBoxLayout" name="horizontalLayout_5">
              <property name="spacing">
-              <number>0</number>
+              <number>10</number>
              </property>
              <property name="leftMargin">
-              <number>0</number>
+              <number>2</number>
              </property>
              <property name="topMargin">
-              <number>0</number>
+              <number>2</number>
              </property>
              <property name="rightMargin">
-              <number>0</number>
+              <number>2</number>
              </property>
              <property name="bottomMargin">
-              <number>0</number>
+              <number>2</number>
              </property>
              <item>
               <widget class="QPushButton" name="minimizeBtn">
@@ -1021,6 +1051,11 @@ background-image: url(:/Fotos/images/sensores.png);</string>
                   <layout class="QHBoxLayout" name="horizontalLayout_9">
                    <item alignment="Qt::AlignHCenter">
                     <widget class="QLabel" name="label_7">
+                     <property name="font">
+                      <font>
+                       <pointsize>10</pointsize>
+                      </font>
+                     </property>
                      <property name="text">
                       <string>Right Menu</string>
                      </property>
