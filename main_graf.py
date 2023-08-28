@@ -90,7 +90,15 @@ class MainWindow(QMainWindow):
         self.step_y = 2
 
     def move_rectangle(self):
+        #QTWidht= 731
+        #QTHight= 678
+
         rect_position = self.ui.rect_label.pos()
+        #WITH DATA POSITION
+        # new_x = rect_position.x() + self.step_x
+        #new_y = rect_position.y() + self.step_y
+
+
         new_x = rect_position.x() + self.step_x
         new_y = rect_position.y() + self.step_y
 
