@@ -2,7 +2,7 @@
 	"QMainWindow":[
 		{
 			"tittle":"Test flow ",
-			"icon":"::/Fotos/images/Assa_Abloy_logo.png",
+			"icon":"::/Icons/images/Assa_Abloy.png",
 			"frameless": true,
 			"transluscentBg": true,
 			"sizeGrip": "sizeGrip",
