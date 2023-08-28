@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1431, 866)
+        MainWindow.resize(1879, 910)
         MainWindow.setStyleSheet(" *{\n"
 "    border:none;\n"
 "    background-color:transparent;\n"
@@ -379,22 +379,25 @@ class Ui_MainWindow(object):
         self.mainPages.setObjectName("mainPages")
         self.page_8 = QtWidgets.QWidget()
         self.page_8.setObjectName("page_8")
+        self.verticalLayout_16 = QtWidgets.QVBoxLayout(self.page_8)
+        self.verticalLayout_16.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_16.setObjectName("verticalLayout_16")
         self.label_12 = QtWidgets.QLabel(self.page_8)
-        self.label_12.setGeometry(QtCore.QRect(9, 9, 731, 678))
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Maximum, QtWidgets.QSizePolicy.Maximum)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.MinimumExpanding, QtWidgets.QSizePolicy.MinimumExpanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.label_12.sizePolicy().hasHeightForWidth())
         self.label_12.setSizePolicy(sizePolicy)
-        self.label_12.setMinimumSize(QtCore.QSize(0, 678))
-        self.label_12.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        self.label_12.setMinimumSize(QtCore.QSize(870, 850))
+        self.label_12.setMaximumSize(QtCore.QSize(848, 780))
+        self.label_12.setSizeIncrement(QtCore.QSize(1, 1))
         self.label_12.setAutoFillBackground(False)
         self.label_12.setText("")
         self.label_12.setPixmap(QtGui.QPixmap(":/Images/Images/Structure.png"))
         self.label_12.setScaledContents(True)
         self.label_12.setObjectName("label_12")
+        self.verticalLayout_16.addWidget(self.label_12)
         self.rect_label = QtWidgets.QLabel(self.page_8)
-        self.rect_label.setGeometry(QtCore.QRect(90, 390, 100, 50))
         self.rect_label.setMaximumSize(QtCore.QSize(100, 50))
         self.rect_label.setStyleSheet("\n"
 "background-image: url(:/Fotos/images/sensores.png);")
@@ -402,6 +405,7 @@ class Ui_MainWindow(object):
         self.rect_label.setPixmap(QtGui.QPixmap(":/Images/Images/Sensors.png"))
         self.rect_label.setScaledContents(True)
         self.rect_label.setObjectName("rect_label")
+        self.verticalLayout_16.addWidget(self.rect_label)
         self.mainPages.addWidget(self.page_8)
         self.page_7 = QtWidgets.QWidget()
         self.page_7.setObjectName("page_7")
@@ -597,7 +601,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout.addWidget(self.mainBodyContainer)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1431, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1879, 26))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
 
