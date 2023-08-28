@@ -2,7 +2,7 @@
 	"QMainWindow":[
 		{
 			"tittle":"Test flow ",
-			"icon":"::/Icons/images/Assa_Abloy.png",
+			"icon":"::/Images/Images/Assa_Abloy.png",
 			"frameless": true,
 			"transluscentBg": true,
 			"sizeGrip": "sizeGrip",
@@ -13,8 +13,8 @@
 					"restore":[
 						{	
 							"buttonName": "restoreBtn",
-							"normalIcon": ":/images/icons_2/square.svg",
-							"maximizedIcon": ":/images/icons_2/copy.svg"
+							"normalIcon": ":/Images/icons/square.svg",
+							"maximizedIcon": ":/Images/icons/copy.svg"
 						}
 					],
 					"moveWindow": "headerContainer",
