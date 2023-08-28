@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1088, 616)
+        MainWindow.resize(1431, 866)
         MainWindow.setStyleSheet(" *{\n"
 "    border:none;\n"
 "    background-color:transparent;\n"
@@ -333,14 +333,14 @@ class Ui_MainWindow(object):
         self.frame_7.setObjectName("frame_7")
         self.horizontalLayout_5 = QtWidgets.QHBoxLayout(self.frame_7)
         self.horizontalLayout_5.setContentsMargins(2, 2, 2, 2)
-        self.horizontalLayout_5.setSpacing(10)
+        self.horizontalLayout_5.setSpacing(30)
         self.horizontalLayout_5.setObjectName("horizontalLayout_5")
         self.minimizeBtn = QtWidgets.QPushButton(self.frame_7)
         self.minimizeBtn.setText("")
         icon10 = QtGui.QIcon()
         icon10.addPixmap(QtGui.QPixmap(":/images/icons_2/minus.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.minimizeBtn.setIcon(icon10)
-        self.minimizeBtn.setIconSize(QtCore.QSize(30, 30))
+        self.minimizeBtn.setIconSize(QtCore.QSize(60, 60))
         self.minimizeBtn.setObjectName("minimizeBtn")
         self.horizontalLayout_5.addWidget(self.minimizeBtn)
         self.restoreBtn = QtWidgets.QPushButton(self.frame_7)
@@ -348,7 +348,7 @@ class Ui_MainWindow(object):
         icon11 = QtGui.QIcon()
         icon11.addPixmap(QtGui.QPixmap(":/images/icons_2/square.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.restoreBtn.setIcon(icon11)
-        self.restoreBtn.setIconSize(QtCore.QSize(30, 30))
+        self.restoreBtn.setIconSize(QtCore.QSize(60, 60))
         self.restoreBtn.setObjectName("restoreBtn")
         self.horizontalLayout_5.addWidget(self.restoreBtn)
         self.closeBtn = QtWidgets.QPushButton(self.frame_7)
@@ -356,7 +356,7 @@ class Ui_MainWindow(object):
         icon12 = QtGui.QIcon()
         icon12.addPixmap(QtGui.QPixmap(":/images/icons_2/x.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.closeBtn.setIcon(icon12)
-        self.closeBtn.setIconSize(QtCore.QSize(30, 30))
+        self.closeBtn.setIconSize(QtCore.QSize(60, 60))
         self.closeBtn.setObjectName("closeBtn")
         self.horizontalLayout_5.addWidget(self.closeBtn)
         self.horizontalLayout_4.addWidget(self.frame_7, 0, QtCore.Qt.AlignRight)
@@ -585,13 +585,13 @@ class Ui_MainWindow(object):
         self.horizontalLayout.addWidget(self.mainBodyContainer)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1088, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1431, 26))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
 
         self.retranslateUi(MainWindow)
         self.centerMenuPages.setCurrentIndex(0)
-        self.mainPages.setCurrentIndex(1)
+        self.mainPages.setCurrentIndex(0)
         self.rightMenuPages.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 

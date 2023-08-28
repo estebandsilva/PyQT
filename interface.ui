@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1088</width>
-    <height>616</height>
+    <width>1431</width>
+    <height>866</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -742,7 +742,7 @@
             </property>
             <layout class="QHBoxLayout" name="horizontalLayout_5">
              <property name="spacing">
-              <number>10</number>
+              <number>30</number>
              </property>
              <property name="leftMargin">
               <number>2</number>
@@ -770,8 +770,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>30</width>
-                 <height>30</height>
+                 <width>60</width>
+                 <height>60</height>
                 </size>
                </property>
               </widget>
@@ -790,8 +790,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>30</width>
-                 <height>30</height>
+                 <width>60</width>
+                 <height>60</height>
                 </size>
                </property>
               </widget>
@@ -810,8 +810,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>30</width>
-                 <height>30</height>
+                 <width>60</width>
+                 <height>60</height>
                 </size>
                </property>
               </widget>
@@ -843,7 +843,7 @@
              <item>
               <widget class="QCustomStackedWidget" name="mainPages">
                <property name="currentIndex">
-                <number>1</number>
+                <number>0</number>
                </property>
                <widget class="QWidget" name="page_8">
                 <widget class="QLabel" name="label_12">
@@ -1317,7 +1317,7 @@ background-image: url(:/Fotos/images/sensores.png);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1088</width>
+     <width>1431</width>
      <height>26</height>
     </rect>
    </property>
@@ -1339,6 +1339,7 @@ background-image: url(:/Fotos/images/sensores.png);</string>
  </customwidgets>
  <resources>
   <include location="resources.qrc"/>
+  <include location="../../../.designer/backup/resources.qrc"/>
  </resources>
  <connections/>
 </ui>
