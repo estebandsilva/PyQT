@@ -675,7 +675,7 @@
             </property>
             <layout class="QHBoxLayout" name="horizontalLayout_6">
              <property name="spacing">
-              <number>20</number>
+              <number>30</number>
              </property>
              <property name="leftMargin">
               <number>0</number>
@@ -698,8 +698,8 @@
                 <string/>
                </property>
                <property name="icon">
-                <iconset>
-                 <normaloff>:/images/icons_2/move.svg</normaloff>:/images/icons_2/move.svg</iconset>
+                <iconset resource="resources.qrc">
+                 <normaloff>:/Icons/Images/icons/map-pin.svg</normaloff>:/Icons/Images/icons/map-pin.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -718,8 +718,8 @@
                 <string/>
                </property>
                <property name="icon">
-                <iconset>
-                 <normaloff>:/images/icons_2/map-pin.svg</normaloff>:/images/icons_2/map-pin.svg</iconset>
+                <iconset resource="resources.qrc">
+                 <normaloff>:/Icons/Images/icons/move.svg</normaloff>:/Icons/Images/icons/move.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>

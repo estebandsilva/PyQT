@@ -13,8 +13,8 @@
 					"restore":[
 						{	
 							"buttonName": "restoreBtn",
-							"normalIcon": ":/Images/icons/square.svg",
-							"maximizedIcon": ":/Images/icons/copy.svg"
+							"normalIcon": ":/Icons/Images/icons/square.svg",
+							"maximizedIcon": ":/Icons/Images/icons/copy.svg"
 						}
 					],
 					"moveWindow": "headerContainer",
@@ -41,8 +41,8 @@
 		"toggleButton": [{
 			"buttonName": "menuBtn",
 			"icons": [{
-				"whenMenuIsCollapsed": ":/images/icons_2/align-justify.svg",
-				"whenMenuIsExpanded": ":/images/icons_2/chevron-left.svg"
+				"whenMenuIsCollapsed": ":/Icons/Images/icons/align-justify.svg",
+				"whenMenuIsExpanded": ":/Icons/Images/icons/chevron-left.svg"
 			}]
 		}],
 		"menuTransitionAnimation": [{
