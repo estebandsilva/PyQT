@@ -162,7 +162,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/images/icons_2/align-justify.svg</normaloff>:/images/icons_2/align-justify.svg</iconset>
+                 <normaloff>:/Icons/Images/icons/align-justify.svg</normaloff>:/Icons/Images/icons/align-justify.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -223,7 +223,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/images/icons_2/home.svg</normaloff>:/images/icons_2/home.svg</iconset>
+                 <normaloff>:/Icons/Images/icons/home.svg</normaloff>:/Icons/Images/icons/home.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -248,7 +248,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/images/icons_2/database.svg</normaloff>:/images/icons_2/database.svg</iconset>
+                 <normaloff>:/Icons/Images/icons/database.svg</normaloff>:/Icons/Images/icons/database.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -273,7 +273,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/images/icons_2/printer.svg</normaloff>:/images/icons_2/printer.svg</iconset>
+                 <normaloff>:/Icons/Images/icons/printer.svg</normaloff>:/Icons/Images/icons/printer.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -338,7 +338,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/images/icons_2/settings.svg</normaloff>:/images/icons_2/settings.svg</iconset>
+                 <normaloff>:/Icons/Images/icons/settings.svg</normaloff>:/Icons/Images/icons/settings.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -363,7 +363,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/images/icons_2/info.svg</normaloff>:/images/icons_2/info.svg</iconset>
+                 <normaloff>:/Icons/Images/icons/info.svg</normaloff>:/Icons/Images/icons/info.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -388,7 +388,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/images/icons_2/help-circle.svg</normaloff>:/images/icons_2/help-circle.svg</iconset>
+                 <normaloff>:/Icons/Images/icons/help-circle.svg</normaloff>:/Icons/Images/icons/help-circle.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -489,7 +489,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/images/icons_2/x-circle.svg</normaloff>:/images/icons_2/x-circle.svg</iconset>
+                 <normaloff>:/Icons/Images/icons/x-circle.svg</normaloff>:/Icons/Images/icons/x-circle.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -641,7 +641,7 @@
                 <string/>
                </property>
                <property name="pixmap">
-                <pixmap resource="resources.qrc">:/Fotos/images/Assa_Abloy_logo.png</pixmap>
+                <pixmap resource="resources.qrc">:/Images/Images/Assa_Abloy.png</pixmap>
                </property>
                <property name="scaledContents">
                 <bool>true</bool>
@@ -698,7 +698,7 @@
                 <string/>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
+                <iconset>
                  <normaloff>:/images/icons_2/move.svg</normaloff>:/images/icons_2/move.svg</iconset>
                </property>
                <property name="iconSize">
@@ -718,7 +718,7 @@
                 <string/>
                </property>
                <property name="icon">
-                <iconset resource="resources.qrc">
+                <iconset>
                  <normaloff>:/images/icons_2/map-pin.svg</normaloff>:/images/icons_2/map-pin.svg</iconset>
                </property>
                <property name="iconSize">
@@ -766,7 +766,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/images/icons_2/minus.svg</normaloff>:/images/icons_2/minus.svg</iconset>
+                 <normaloff>:/Icons/Images/icons/minus.svg</normaloff>:/Icons/Images/icons/minus.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -786,7 +786,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/images/icons_2/square.svg</normaloff>:/images/icons_2/square.svg</iconset>
+                 <normaloff>:/Icons/Images/icons/square.svg</normaloff>:/Icons/Images/icons/square.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -806,7 +806,7 @@
                </property>
                <property name="icon">
                 <iconset resource="resources.qrc">
-                 <normaloff>:/images/icons_2/x.svg</normaloff>:/images/icons_2/x.svg</iconset>
+                 <normaloff>:/Icons/Images/icons/x.svg</normaloff>:/Icons/Images/icons/x.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -880,7 +880,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap resource="resources.qrc">:/Fotos/images/marco.png</pixmap>
+                  <pixmap resource="resources.qrc">:/Images/Images/Structure.png</pixmap>
                  </property>
                  <property name="scaledContents">
                   <bool>true</bool>
@@ -909,7 +909,7 @@ background-image: url(:/Fotos/images/sensores.png);</string>
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap resource="resources.qrc">:/Fotos/images/sensores.png</pixmap>
+                  <pixmap resource="resources.qrc">:/Images/Images/Sensors.png</pixmap>
                  </property>
                  <property name="scaledContents">
                   <bool>true</bool>
@@ -1074,7 +1074,7 @@ background-image: url(:/Fotos/images/sensores.png);</string>
                      </property>
                      <property name="icon">
                       <iconset resource="resources.qrc">
-                       <normaloff>:/images/icons_2/x-circle.svg</normaloff>:/images/icons_2/x-circle.svg</iconset>
+                       <normaloff>:/Icons/Images/icons/x-circle.svg</normaloff>:/Icons/Images/icons/x-circle.svg</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
@@ -1359,7 +1359,6 @@ background-image: url(:/Fotos/images/sensores.png);</string>
  </customwidgets>
  <resources>
   <include location="resources.qrc"/>
-  <include location="../../../.designer/backup/resources.qrc"/>
  </resources>
  <connections/>
 </ui>
