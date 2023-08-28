@@ -468,7 +468,7 @@
               <widget class="QLabel" name="label">
                <property name="font">
                 <font>
-                 <pointsize>10</pointsize>
+                 <pointsize>14</pointsize>
                 </font>
                </property>
                <property name="text">
@@ -633,8 +633,8 @@
               <widget class="QLabel" name="label_4">
                <property name="maximumSize">
                 <size>
-                 <width>80</width>
-                 <height>40</height>
+                 <width>150</width>
+                 <height>75</height>
                 </size>
                </property>
                <property name="text">
@@ -652,7 +652,7 @@
               <widget class="QLabel" name="label_6">
                <property name="font">
                 <font>
-                 <pointsize>10</pointsize>
+                 <pointsize>14</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
                 </font>
@@ -675,7 +675,7 @@
             </property>
             <layout class="QHBoxLayout" name="horizontalLayout_6">
              <property name="spacing">
-              <number>0</number>
+              <number>20</number>
              </property>
              <property name="leftMargin">
               <number>0</number>
@@ -703,8 +703,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>40</width>
-                 <height>40</height>
+                 <width>60</width>
+                 <height>60</height>
                 </size>
                </property>
               </widget>
@@ -723,8 +723,8 @@
                </property>
                <property name="iconSize">
                 <size>
-                 <width>40</width>
-                 <height>40</height>
+                 <width>60</width>
+                 <height>60</height>
                 </size>
                </property>
               </widget>
@@ -856,7 +856,7 @@
                   </rect>
                  </property>
                  <property name="sizePolicy">
-                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
                    <horstretch>0</horstretch>
                    <verstretch>0</verstretch>
                   </sizepolicy>
@@ -864,7 +864,7 @@
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>0</height>
+                   <height>678</height>
                   </size>
                  </property>
                  <property name="maximumSize">
@@ -1053,7 +1053,7 @@ background-image: url(:/Fotos/images/sensores.png);</string>
                     <widget class="QLabel" name="label_7">
                      <property name="font">
                       <font>
-                       <pointsize>10</pointsize>
+                       <pointsize>14</pointsize>
                       </font>
                      </property>
                      <property name="text">
@@ -1123,7 +1123,7 @@ background-image: url(:/Fotos/images/sensores.png);</string>
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>11</pointsize>
+                        <pointsize>14</pointsize>
                        </font>
                       </property>
                       <property name="text">
@@ -1166,6 +1166,11 @@ background-image: url(:/Fotos/images/sensores.png);</string>
                          <layout class="QVBoxLayout" name="verticalLayout_20">
                           <item>
                            <widget class="QLabel" name="label_13">
+                            <property name="font">
+                             <font>
+                              <pointsize>12</pointsize>
+                             </font>
+                            </property>
                             <property name="text">
                              <string>( X ) AXIS</string>
                             </property>
@@ -1173,6 +1178,11 @@ background-image: url(:/Fotos/images/sensores.png);</string>
                           </item>
                           <item>
                            <widget class="QLabel" name="label_9">
+                            <property name="font">
+                             <font>
+                              <pointsize>12</pointsize>
+                             </font>
+                            </property>
                             <property name="text">
                              <string>( Y ) AXIS</string>
                             </property>
@@ -1198,6 +1208,11 @@ background-image: url(:/Fotos/images/sensores.png);</string>
                          <layout class="QVBoxLayout" name="verticalLayout_22">
                           <item>
                            <widget class="QLabel" name="label_17">
+                            <property name="font">
+                             <font>
+                              <pointsize>12</pointsize>
+                             </font>
+                            </property>
                             <property name="text">
                              <string>TextLabel</string>
                             </property>
@@ -1205,6 +1220,11 @@ background-image: url(:/Fotos/images/sensores.png);</string>
                           </item>
                           <item>
                            <widget class="QLabel" name="label_16">
+                            <property name="font">
+                             <font>
+                              <pointsize>12</pointsize>
+                             </font>
+                            </property>
                             <property name="text">
                              <string>TextLabel</string>
                             </property>
