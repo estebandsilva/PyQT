@@ -17,8 +17,8 @@
 							"maximizedIcon": ":/Icons/Images/icons/copy.svg"
 						}
 					],
-					"moveWindow": "headerContainer",
-					"tittleBar": "headerContainer"
+					"moveWindow": "headerContiner",
+					"tittleBar": "headerContiner"
 				}
 			]
 		}
@@ -98,8 +98,10 @@
 					"navigationButtons":[
 						{
 							"homeBtn": "page_8",
-							"dataBtn": "page_7",
-							"reportBtn": "page_9"
+							"dataBtn": "temperature_page",
+							"reportBtn": "flow_page",
+							"humidityBtn": "humidity_page",
+							"pressureBtn": "pressure_page"
 						}
 					]
 				}
@@ -129,6 +131,7 @@
 							"settingsBtn": "page",
 							"infoBtn": "page_2",
 							"helpBtn": "page_3"
+
 						}
 					]
 				}
@@ -141,7 +144,9 @@
 			"Buttons": [
 				"homeBtn",
 				"dataBtn",
-				"reportBtn"
+				"reportBtn",
+				"humidityBtn",
+				"pressureBtn"
 			],
 			"Style":[{
 				"Active": "background-color: #1f232a;",

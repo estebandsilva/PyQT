@@ -284,7 +284,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QPushButton" name="pushButton">
+              <widget class="QPushButton" name="humidityBtn">
                <property name="font">
                 <font>
                  <pointsize>14</pointsize>
@@ -306,7 +306,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QPushButton" name="pushButton_2">
+              <widget class="QPushButton" name="pressureBtn">
                <property name="font">
                 <font>
                  <pointsize>14</pointsize>
@@ -927,7 +927,7 @@ p, li { white-space: pre-wrap; }
              <item>
               <widget class="QCustomStackedWidget" name="mainPages">
                <property name="currentIndex">
-                <number>0</number>
+                <number>4</number>
                </property>
                <widget class="QWidget" name="page_8">
                 <widget class="QLabel" name="label_12">
@@ -1000,62 +1000,44 @@ background-image: url(:/Fotos/images/sensores.png);</string>
                  </property>
                 </widget>
                </widget>
-               <widget class="QWidget" name="page_7">
+               <widget class="QWidget" name="temperature_page">
                 <layout class="QVBoxLayout" name="verticalLayout_17">
                  <item>
                   <widget class="QGraphicsView" name="heatmapView"/>
                  </item>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="flow_page">
+                <layout class="QVBoxLayout" name="verticalLayout_18">
                  <item>
-                  <widget class="QLabel" name="label_11">
-                   <property name="minimumSize">
+                  <widget class="QGraphicsView" name="flow_graphic"/>
+                 </item>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="humidity_page">
+                <property name="maximumSize">
+                 <size>
+                  <width>630</width>
+                  <height>790</height>
+                 </size>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_19">
+                 <item>
+                  <widget class="QGraphicsView" name="humidity_graphic">
+                   <property name="maximumSize">
                     <size>
-                     <width>200</width>
-                     <height>0</height>
+                     <width>256</width>
+                     <height>192</height>
                     </size>
-                   </property>
-                   <property name="font">
-                    <font>
-                     <pointsize>11</pointsize>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string>Data Analysis</string>
-                   </property>
-                   <property name="alignment">
-                    <set>Qt::AlignCenter</set>
                    </property>
                   </widget>
                  </item>
                 </layout>
                </widget>
-               <widget class="QWidget" name="page_9">
-                <layout class="QVBoxLayout" name="verticalLayout_18">
+               <widget class="QWidget" name="pressure_page">
+                <layout class="QVBoxLayout" name="verticalLayout_23">
                  <item>
-                  <widget class="QLabel" name="label_14">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="maximumSize">
-                    <size>
-                     <width>100</width>
-                     <height>20</height>
-                    </size>
-                   </property>
-                   <property name="font">
-                    <font>
-                     <pointsize>11</pointsize>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string>Reports</string>
-                   </property>
-                   <property name="alignment">
-                    <set>Qt::AlignCenter</set>
-                   </property>
-                  </widget>
+                  <widget class="QGraphicsView" name="pressure_graphic"/>
                  </item>
                 </layout>
                </widget>
