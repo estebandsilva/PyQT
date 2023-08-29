@@ -27,11 +27,11 @@
 		{
 		"name": "leftMenuContainer",
 		"defaultSize": [{
-			"width": 100,
+			"width": 90,
 			"height": "parent"
 		}],
 		"collapsedSize": [{
-			"width": 100,
+			"width": 90,
 			"height": "parent"
 		}],
 		"expandedSize": [{
