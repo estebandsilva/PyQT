@@ -32,7 +32,7 @@ from ui_interface import *
 
 from Custom_Widgets.Widgets import *
 
-#GRAPHICS
+#GRAPHICS Version 1.0
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
