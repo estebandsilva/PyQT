@@ -61,7 +61,7 @@
 			"height": "parent"
 		}],
 		"expandedSize": [{
-			"width": 200,
+			"width": 350,
 			"height": "parent"
 		}],
 		"menuTransitionAnimation": [{
@@ -80,7 +80,7 @@
 			"height": "auto"
 		}],
 		"expandedSize": [{
-			"width": 200,
+			"width": 300,
 			"height": "auto"
 		}],
 		"menuTransitionAnimation": [{
