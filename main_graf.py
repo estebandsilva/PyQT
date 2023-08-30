@@ -54,6 +54,11 @@ class MainWindow(QMainWindow):
 
         #Graphics
         self.setup_heatmap()
+        self.setup_flowmap()
+        self.setup_humiditymap()
+
+
+
 
 
          # APPLY JSON STYLESHEET
@@ -114,8 +119,13 @@ class MainWindow(QMainWindow):
         self.ui.label_16.setText( str(new_y))
         self.ui.label_17.setText( str(new_x))
 
+
 #####GRAPHICS
+
+    #TEMPERATURE
+
     def setup_heatmap(self):
+
         self.figure = plt.figure()
         self.canvas = FigureCanvas(self.figure)
 
@@ -133,7 +143,43 @@ class MainWindow(QMainWindow):
 
         self.canvas.draw()
 
+    #FLOW
+    def setup_flowmap(self):
+        self.figure = plt.figure()
+        self.canvas = FigureCanvas(self.figure)
 
+        layout = QVBoxLayout(self.ui.flow_graphic)  # Use the layout of the QGraphicsView
+        layout.addWidget(self.canvas)
+
+        self.plot_flowmap()
+    def plot_flowmap(self):
+        # Generate sample data (replace with your data)
+        data = np.random.rand(10, 10)
+
+        ax = self.figure.add_subplot(111)
+        cax = ax.matshow(data, cmap='viridis')
+        self.figure.colorbar(cax)
+
+        self.canvas.draw()
+
+    #HUMIDITY
+    def setup_humiditymap(self):
+        self.figure = plt.figure()
+        self.canvas = FigureCanvas(self.figure)
+
+        layout = QVBoxLayout(self.ui.humidity_graphic)  # Use the layout of the QGraphicsView
+        layout.addWidget(self.canvas)
+
+        self.plot_humiditymap()
+    def plot_humiditymap(self):
+        # Generate sample data (replace with your data)
+        data = np.random.rand(10, 10)
+
+        ax = self.figure.add_subplot(111)
+        cax = ax.matshow(data, cmap='viridis')
+        self.figure.colorbar(cax)
+
+        self.canvas.draw()
 
 ########################################################################
 ## EXECUTE  APP
