@@ -636,8 +636,8 @@
                  <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:9.75pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:7.8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-style:italic;&quot;&gt;If you need any other information or help, don't doubt to visit our website or contact with us.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-style:italic;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-style:italic;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
@@ -1161,6 +1161,9 @@ background-image: url(:/Fotos/images/sensores.png);</string>
                 </item>
                 <item>
                  <widget class="QFrame" name="frame_13">
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
                   <property name="frameShape">
                    <enum>QFrame::StyledPanel</enum>
                   </property>
@@ -1204,6 +1207,22 @@ background-color: rgb(32, 118, 22);</string>
                    </item>
                    <item>
                     <widget class="QFrame" name="frame_15">
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton#stopBtn{
+	background-color: rgb(179, 35, 10);
+}
+
+QPushButton#stopBtn:hover{
+	background-color: rgb(91, 112, 188);
+}
+
+QPushButton#stopBtn:pressed{
+
+	background-color: rgb(51, 35, 139);
+
+}
+</string>
+                     </property>
                      <property name="frameShape">
                       <enum>QFrame::StyledPanel</enum>
                      </property>
@@ -1227,10 +1246,7 @@ background-color: rgb(32, 118, 22);</string>
                          </font>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true">alternate-background-color: rgb(255, 0, 0);
-
-background-color: rgb(173, 0, 0);
-alternate-background-color: rgb(255, 0, 0);</string>
+                         <string notr="true"/>
                         </property>
                         <property name="text">
                          <string>Stop</string>
@@ -1494,7 +1510,7 @@ alternate-background-color: rgb(255, 0, 0);</string>
      <x>0</x>
      <y>0</y>
      <width>1431</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

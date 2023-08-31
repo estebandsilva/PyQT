@@ -511,6 +511,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_9.addWidget(self.closeRightMenuBtn, 0, QtCore.Qt.AlignRight)
         self.verticalLayout_12.addWidget(self.frame_8)
         self.frame_13 = QtWidgets.QFrame(self.rightMenuSubContainer)
+        self.frame_13.setStyleSheet("")
         self.frame_13.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_13.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_13.setObjectName("frame_13")
@@ -533,6 +534,20 @@ class Ui_MainWindow(object):
         self.horizontalLayout_13.addWidget(self.startBtn)
         self.verticalLayout_16.addWidget(self.frame_14)
         self.frame_15 = QtWidgets.QFrame(self.frame_13)
+        self.frame_15.setStyleSheet("QPushButton#stopBtn{\n"
+"    background-color: rgb(179, 35, 10);\n"
+"}\n"
+"\n"
+"QPushButton#stopBtn:hover{\n"
+"    background-color: rgb(91, 112, 188);\n"
+"}\n"
+"\n"
+"QPushButton#stopBtn:pressed{\n"
+"\n"
+"    background-color: rgb(51, 35, 139);\n"
+"\n"
+"}\n"
+"")
         self.frame_15.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_15.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_15.setObjectName("frame_15")
@@ -545,9 +560,7 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.stopBtn.setFont(font)
-        self.stopBtn.setStyleSheet("alternate-background-color: rgb(255, 0, 0);\n"
-"\n"
-"background-color: rgb(173, 0, 0);")
+        self.stopBtn.setStyleSheet("")
         self.stopBtn.setObjectName("stopBtn")
         self.horizontalLayout_14.addWidget(self.stopBtn)
         self.verticalLayout_16.addWidget(self.frame_15)
@@ -672,7 +685,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout.addWidget(self.mainBodyContainer)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1431, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1431, 21))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
 
@@ -708,8 +721,8 @@ class Ui_MainWindow(object):
         self.textBrowser.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:9.75pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:7.8pt;\"><br /></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14pt; font-style:italic;\">If you need any other information or help, don\'t doubt to visit our website or contact with us.</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-style:italic;\"><br /></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-style:italic;\"><br /></p>\n"
@@ -735,9 +748,9 @@ class Ui_MainWindow(object):
         self.label_17.setText(_translate("MainWindow", "TextLabel"))
         self.label_16.setText(_translate("MainWindow", "TextLabel"))
         self.label_15.setText(_translate("MainWindow", "Copyright Mequonic"))
-
 from Custom_Widgets.Widgets import QCustomSlideMenu, QCustomStackedWidget
 import resources_rc
+
 
 if __name__ == "__main__":
     import sys
