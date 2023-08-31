@@ -47,16 +47,16 @@ class MainWindow(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
-        #Rectangle
-        self.timer = QTimer(self)
-        self.timer.timeout.connect(self.move_rectangle)
-        self.timer.start(50)
-
         #Graphics
         self.setup_heatmap()
         self.setup_flowmap()
         self.setup_humiditymap()
+        self.setup_pressuremap()
 
+        #Rectangle
+        self.timer = QTimer(self)
+        self.timer.timeout.connect(self.move_rectangle)
+        self.timer.start(50)
 
 
 
@@ -88,6 +88,91 @@ class MainWindow(QMainWindow):
         self.ui.closeRightMenuBtn.clicked.connect(lambda: self.ui.rightMenuContainer.collapseMenu())
 
 
+
+
+#####GRAPHICS
+
+    #TEMPERATURE
+
+    def setup_heatmap(self):
+
+        self.figure = plt.figure()
+        self.canvas = FigureCanvas(self.figure)
+
+        layout = QVBoxLayout(self.ui.heatmapView)  # Use the layout of the QGraphicsView
+        layout.addWidget(self.canvas)
+
+        self.plot_heatmap()
+    def plot_heatmap(self):
+        # Generate sample data (replace with your data)
+        data = np.random.rand(10, 10)
+
+        ax = self.figure.add_subplot(111)
+        cax = ax.matshow(data, cmap='viridis')
+        self.figure.colorbar(cax)
+
+        self.canvas.draw()
+
+
+
+    #FLOW
+    def setup_flowmap(self):
+        self.figure = plt.figure()
+        self.canvas = FigureCanvas(self.figure)
+
+        layout = QVBoxLayout(self.ui.flow_graphic)  # Use the layout of the QGraphicsView
+        layout.addWidget(self.canvas)
+
+        self.plot_flowmap()
+    def plot_flowmap(self):
+        # Generate sample data (replace with your data)
+        data = np.random.rand(20, 20)
+
+        ax = self.figure.add_subplot(111)
+        cax = ax.matshow(data, cmap='viridis')
+        self.figure.colorbar(cax)
+
+        self.canvas.draw()
+
+    #HUMIDITY
+    def setup_humiditymap(self):
+        self.figure = plt.figure()
+        self.canvas = FigureCanvas(self.figure)
+
+        layout = QVBoxLayout(self.ui.humidity_graphic)  # Use the layout of the QGraphicsView
+        layout.addWidget(self.canvas)
+
+        self.plot_humiditymap()
+    def plot_humiditymap(self):
+        # Generate sample data (replace with your data)
+        data = np.random.rand(30, 30)
+
+        ax = self.figure.add_subplot(111)
+        cax = ax.matshow(data, cmap='viridis')
+        self.figure.colorbar(cax)
+
+        self.canvas.draw()
+
+
+    #PRESSURE
+    def setup_pressuremap(self):
+        self.figure = plt.figure()
+        self.canvas = FigureCanvas(self.figure)
+
+        layout = QVBoxLayout(self.ui.pressure_graphic)  # Use the layout of the QGraphicsView
+        layout.addWidget(self.canvas)
+
+        self.plot_pressuremap()
+    def plot_pressuremap(self):
+        # Generate sample data (replace with your data)
+        data = np.random.rand(40, 40)
+
+        ax = self.figure.add_subplot(111)
+        cax = ax.matshow(data, cmap='viridis')
+        self.figure.colorbar(cax)
+
+        self.canvas.draw()
+
 ### RECTANGLE
         #RECTANBLE INCREMENT
         # Cambiar el valor de las posiciones por pantalla
@@ -118,68 +203,6 @@ class MainWindow(QMainWindow):
         self.ui.rect_label.move(new_x, new_y)
         self.ui.label_16.setText( str(new_y))
         self.ui.label_17.setText( str(new_x))
-
-
-#####GRAPHICS
-
-    #TEMPERATURE
-
-    def setup_heatmap(self):
-
-        self.figure = plt.figure()
-        self.canvas = FigureCanvas(self.figure)
-
-        layout = QVBoxLayout(self.ui.heatmapView)  # Use the layout of the QGraphicsView
-        layout.addWidget(self.canvas)
-
-        self.plot_heatmap()
-    def plot_heatmap(self):
-        # Generate sample data (replace with your data)
-        data = np.random.rand(10, 10)
-
-        ax = self.figure.add_subplot(111)
-        cax = ax.matshow(data, cmap='viridis')
-        self.figure.colorbar(cax)
-
-        self.canvas.draw()
-
-    #FLOW
-    def setup_flowmap(self):
-        self.figure = plt.figure()
-        self.canvas = FigureCanvas(self.figure)
-
-        layout = QVBoxLayout(self.ui.flow_graphic)  # Use the layout of the QGraphicsView
-        layout.addWidget(self.canvas)
-
-        self.plot_flowmap()
-    def plot_flowmap(self):
-        # Generate sample data (replace with your data)
-        data = np.random.rand(10, 10)
-
-        ax = self.figure.add_subplot(111)
-        cax = ax.matshow(data, cmap='viridis')
-        self.figure.colorbar(cax)
-
-        self.canvas.draw()
-
-    #HUMIDITY
-    def setup_humiditymap(self):
-        self.figure = plt.figure()
-        self.canvas = FigureCanvas(self.figure)
-
-        layout = QVBoxLayout(self.ui.humidity_graphic)  # Use the layout of the QGraphicsView
-        layout.addWidget(self.canvas)
-
-        self.plot_humiditymap()
-    def plot_humiditymap(self):
-        # Generate sample data (replace with your data)
-        data = np.random.rand(10, 10)
-
-        ax = self.figure.add_subplot(111)
-        cax = ax.matshow(data, cmap='viridis')
-        self.figure.colorbar(cax)
-
-        self.canvas.draw()
 
 ########################################################################
 ## EXECUTE  APP
