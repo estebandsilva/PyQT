@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1431, 982)
+        MainWindow.resize(1458, 982)
         MainWindow.setStyleSheet(" *{\n"
 "    border:none;\n"
 "    background-color:transparent;\n"
@@ -109,8 +109,8 @@ class Ui_MainWindow(object):
         self.homeBtn = QtWidgets.QPushButton(self.frame_2)
         font = QtGui.QFont()
         font.setPointSize(20)
-        font.setBold(True)
-        font.setWeight(75)
+        font.setBold(False)
+        font.setWeight(50)
         self.homeBtn.setFont(font)
         self.homeBtn.setStyleSheet("background-color: #1f232a")
         icon1 = QtGui.QIcon()
@@ -141,7 +141,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_3.addWidget(self.reportBtn)
         self.humidityBtn = QtWidgets.QPushButton(self.frame_2)
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(20)
         self.humidityBtn.setFont(font)
         icon4 = QtGui.QIcon()
         icon4.addPixmap(QtGui.QPixmap(":/Icons/Images/icons/droplet.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -151,7 +151,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_3.addWidget(self.humidityBtn)
         self.pressureBtn = QtWidgets.QPushButton(self.frame_2)
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(20)
         self.pressureBtn.setFont(font)
         icon5 = QtGui.QIcon()
         icon5.addPixmap(QtGui.QPixmap(":/Icons/Images/icons/arrow-down.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -172,7 +172,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_4.setObjectName("verticalLayout_4")
         self.settingsBtn = QtWidgets.QPushButton(self.frame_3)
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(20)
         self.settingsBtn.setFont(font)
         icon6 = QtGui.QIcon()
         icon6.addPixmap(QtGui.QPixmap(":/Icons/Images/icons/settings.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -182,7 +182,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_4.addWidget(self.settingsBtn)
         self.infoBtn = QtWidgets.QPushButton(self.frame_3)
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(20)
         self.infoBtn.setFont(font)
         icon7 = QtGui.QIcon()
         icon7.addPixmap(QtGui.QPixmap(":/Icons/Images/icons/info.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -192,7 +192,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_4.addWidget(self.infoBtn)
         self.helpBtn = QtWidgets.QPushButton(self.frame_3)
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(20)
         self.helpBtn.setFont(font)
         icon8 = QtGui.QIcon()
         icon8.addPixmap(QtGui.QPixmap(":/Icons/Images/icons/help-circle.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -521,6 +521,20 @@ class Ui_MainWindow(object):
         self.verticalLayout_16 = QtWidgets.QVBoxLayout(self.frame_13)
         self.verticalLayout_16.setObjectName("verticalLayout_16")
         self.frame_14 = QtWidgets.QFrame(self.frame_13)
+        self.frame_14.setStyleSheet("QPushButton#startBtn{\n"
+"    \n"
+"    background-color: rgb(0, 111, 37);\n"
+"}\n"
+"\n"
+"\n"
+"\n"
+"QPushButton#startBtn:pressed{\n"
+"\n"
+"\n"
+"    background-color: rgb(21, 202, 1);\n"
+"\n"
+"}\n"
+"")
         self.frame_14.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_14.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_14.setObjectName("frame_14")
@@ -548,7 +562,8 @@ class Ui_MainWindow(object):
 "\n"
 "QPushButton#stopBtn:pressed{\n"
 "\n"
-"    background-color: rgb(51, 35, 139);\n"
+"\n"
+"    background-color: rgb(255, 17, 0);\n"
 "\n"
 "}\n"
 "")
@@ -592,7 +607,7 @@ class Ui_MainWindow(object):
         self.label_10 = QtWidgets.QLabel(self.page_5)
         self.label_10.setMinimumSize(QtCore.QSize(200, 0))
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(20)
         self.label_10.setFont(font)
         self.label_10.setAlignment(QtCore.Qt.AlignCenter)
         self.label_10.setObjectName("label_10")
@@ -617,13 +632,13 @@ class Ui_MainWindow(object):
         self.verticalLayout_20.setObjectName("verticalLayout_20")
         self.label_13 = QtWidgets.QLabel(self.frame_10)
         font = QtGui.QFont()
-        font.setPointSize(12)
+        font.setPointSize(18)
         self.label_13.setFont(font)
         self.label_13.setObjectName("label_13")
         self.verticalLayout_20.addWidget(self.label_13)
         self.label_9 = QtWidgets.QLabel(self.frame_10)
         font = QtGui.QFont()
-        font.setPointSize(12)
+        font.setPointSize(18)
         self.label_9.setFont(font)
         self.label_9.setObjectName("label_9")
         self.verticalLayout_20.addWidget(self.label_9)
@@ -641,13 +656,13 @@ class Ui_MainWindow(object):
         self.verticalLayout_22.setObjectName("verticalLayout_22")
         self.label_17 = QtWidgets.QLabel(self.frame_12)
         font = QtGui.QFont()
-        font.setPointSize(12)
+        font.setPointSize(18)
         self.label_17.setFont(font)
         self.label_17.setObjectName("label_17")
         self.verticalLayout_22.addWidget(self.label_17)
         self.label_16 = QtWidgets.QLabel(self.frame_12)
         font = QtGui.QFont()
-        font.setPointSize(12)
+        font.setPointSize(18)
         self.label_16.setFont(font)
         self.label_16.setObjectName("label_16")
         self.verticalLayout_22.addWidget(self.label_16)
@@ -689,7 +704,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout.addWidget(self.mainBodyContainer)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1431, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1458, 21))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
 
