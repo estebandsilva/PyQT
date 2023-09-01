@@ -1213,8 +1213,7 @@ QPushButton#startBtn:pressed{
                          </font>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true">
-background-color: rgb(32, 118, 22);</string>
+                         <string notr="true"/>
                         </property>
                         <property name="text">
                          <string>Start</string>

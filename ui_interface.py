@@ -547,8 +547,7 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.startBtn.setFont(font)
-        self.startBtn.setStyleSheet("\n"
-"background-color: rgb(32, 118, 22);")
+        self.startBtn.setStyleSheet("")
         self.startBtn.setIconSize(QtCore.QSize(16, 16))
         self.startBtn.setObjectName("startBtn")
         self.horizontalLayout_13.addWidget(self.startBtn)

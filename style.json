@@ -164,16 +164,8 @@
 				"Active": "background-color: #2c313c;",
 				"NotActive": ""
 			}]
-		},
-		{
-			"Buttons": [
-				"startBtn"
-			],
-			"Style":[{
-				"Active": "background-color: #20ec11;",
-				"NotActive": ""
-			}]
 		}
+
 
 
 	]
