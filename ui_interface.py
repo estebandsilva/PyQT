@@ -61,7 +61,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout.setSpacing(0)
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.leftMenuContainer = QCustomSlideMenu(self.centralwidget)
-        self.leftMenuContainer.setMinimumSize(QtCore.QSize(90, 0))
+        self.leftMenuContainer.setMinimumSize(QtCore.QSize(320, 0))
         self.leftMenuContainer.setMaximumSize(QtCore.QSize(100, 16777215))
         self.leftMenuContainer.setStyleSheet("")
         self.leftMenuContainer.setObjectName("leftMenuContainer")
@@ -108,7 +108,9 @@ class Ui_MainWindow(object):
         self.verticalLayout_3.setObjectName("verticalLayout_3")
         self.homeBtn = QtWidgets.QPushButton(self.frame_2)
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(20)
+        font.setBold(True)
+        font.setWeight(75)
         self.homeBtn.setFont(font)
         self.homeBtn.setStyleSheet("background-color: #1f232a")
         icon1 = QtGui.QIcon()
@@ -119,7 +121,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_3.addWidget(self.homeBtn)
         self.dataBtn = QtWidgets.QPushButton(self.frame_2)
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(20)
         self.dataBtn.setFont(font)
         icon2 = QtGui.QIcon()
         icon2.addPixmap(QtGui.QPixmap(":/Icons/Images/icons/thermometer.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -129,7 +131,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_3.addWidget(self.dataBtn)
         self.reportBtn = QtWidgets.QPushButton(self.frame_2)
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(20)
         self.reportBtn.setFont(font)
         icon3 = QtGui.QIcon()
         icon3.addPixmap(QtGui.QPixmap(":/Icons/Images/icons/flag.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -275,8 +277,9 @@ class Ui_MainWindow(object):
         self.label_5.setMinimumSize(QtCore.QSize(300, 100))
         self.label_5.setMaximumSize(QtCore.QSize(16777215, 23))
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(20)
         self.label_5.setFont(font)
+        self.label_5.setText("")
         self.label_5.setAlignment(QtCore.Qt.AlignCenter)
         self.label_5.setObjectName("label_5")
         self.verticalLayout_9.addWidget(self.label_5)
@@ -321,7 +324,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_7.addWidget(self.label_4)
         self.label_6 = QtWidgets.QLabel(self.frame_5)
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(20)
         font.setBold(True)
         font.setWeight(75)
         self.label_6.setFont(font)
@@ -526,10 +529,13 @@ class Ui_MainWindow(object):
         self.startBtn = QtWidgets.QPushButton(self.frame_14)
         self.startBtn.setMinimumSize(QtCore.QSize(100, 100))
         font = QtGui.QFont()
-        font.setPointSize(12)
+        font.setPointSize(20)
+        font.setBold(True)
+        font.setWeight(75)
         self.startBtn.setFont(font)
         self.startBtn.setStyleSheet("\n"
 "background-color: rgb(32, 118, 22);")
+        self.startBtn.setIconSize(QtCore.QSize(16, 16))
         self.startBtn.setObjectName("startBtn")
         self.horizontalLayout_13.addWidget(self.startBtn)
         self.verticalLayout_16.addWidget(self.frame_14)
@@ -538,9 +544,7 @@ class Ui_MainWindow(object):
 "    background-color: rgb(179, 35, 10);\n"
 "}\n"
 "\n"
-"QPushButton#stopBtn:hover{\n"
-"    background-color: rgb(91, 112, 188);\n"
-"}\n"
+"\n"
 "\n"
 "QPushButton#stopBtn:pressed{\n"
 "\n"
@@ -556,9 +560,9 @@ class Ui_MainWindow(object):
         self.stopBtn = QtWidgets.QPushButton(self.frame_15)
         self.stopBtn.setMinimumSize(QtCore.QSize(100, 100))
         font = QtGui.QFont()
-        font.setPointSize(14)
-        font.setBold(False)
-        font.setWeight(50)
+        font.setPointSize(20)
+        font.setBold(True)
+        font.setWeight(75)
         self.stopBtn.setFont(font)
         self.stopBtn.setStyleSheet("")
         self.stopBtn.setObjectName("stopBtn")
@@ -717,20 +721,18 @@ class Ui_MainWindow(object):
         self.closeCenterMenuBtn.setToolTip(_translate("MainWindow", "Close Menu"))
         self.label_2.setText(_translate("MainWindow", "Settings"))
         self.label_3.setText(_translate("MainWindow", "Information"))
-        self.label_5.setText(_translate("MainWindow", "Help"))
         self.textBrowser.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:9.75pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:7.8pt;\"><br /></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14pt; font-style:italic;\">If you need any other information or help, don\'t doubt to visit our website or contact with us.</span></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-style:italic;\"><br /></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-style:italic;\"><br /></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14pt; font-style:italic;\">Website:</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14pt; font-style:italic;\">( https://www.mequonic.com/ )</span><span style=\" font-size:12pt; font-style:italic;\"> </span></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-style:italic;\"><br /></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14pt; font-style:italic;\">Email:</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14pt; font-style:italic;\">(</span><a name=\"yui_3_17_2_1_1693328266162_199\"></a><span style=\" font-size:14pt; font-style:italic;\">c</span><span style=\" font-size:14pt; font-style:italic;\">ontact@mequonic.com )</span></p></body></html>"))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18pt; font-style:italic;\">If you need any other information or help, don\'t doubt to visit our website or contact with us.</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:18pt; font-style:italic;\"><br /></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:18pt; font-style:italic;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18pt; font-style:italic;\">Website:</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18pt; font-style:italic;\">( https://www.mequonic.com/ ) </span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:18pt; font-style:italic;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18pt; font-style:italic;\">Email:</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18pt; font-style:italic;\">(</span><a name=\"yui_3_17_2_1_1693328266162_199\"></a><span style=\" font-size:18pt; font-style:italic;\">c</span><span style=\" font-size:18pt; font-style:italic;\">ontact@mequonic.com )</span></p></body></html>"))
         self.label_6.setText(_translate("MainWindow", "  Flow experiment"))
         self.moreMenuBtn.setToolTip(_translate("MainWindow", "More"))
         self.profieMenuBtn.setToolTip(_translate("MainWindow", "Profile"))
